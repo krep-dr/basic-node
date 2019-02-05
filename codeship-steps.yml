@@ -11,3 +11,9 @@
     - service: app
       name: requires-approval
       command: echo deploy
+- type: parallel
+  steps:
+    - service: app
+      command: echo one
+    - service: app
+      command: echo two
