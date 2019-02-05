@@ -25,3 +25,4 @@ and istanbul.
 
 ### CI Coverage Report
 ![CI Coverage Report](https://github.com/devops-recipes/basic-node/blob/master/public/resources/images/coverage.jpg)
+.
