@@ -5,3 +5,9 @@
 - name: bar_step
   service: app
   command: echo bar
+- type: manual
+  tag: master
+  steps:
+    - service: app
+      name: requires-approval
+      command: echo deploy
